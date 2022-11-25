@@ -70,7 +70,7 @@ with DAG(
     s3_upload_log_file_task = PythonOperator(
         task_id = 's3_upload_log_file',
         python_callable=s3_upload_file,
-        op_kwargs = {'bucketName': 'baalti123'},
+        op_kwargs = {'bucketName': 'testdata12'},
     )
 
     create_weblog_task >> s3_upload_log_file_task
