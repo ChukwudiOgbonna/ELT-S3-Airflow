@@ -1,4 +1,4 @@
-# de-project-1
+# Data Engineering Mini Project
 
 Topic:
 Apache Airflow set-up on docker with AWS S3
